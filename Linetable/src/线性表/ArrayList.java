@@ -80,6 +80,9 @@ public class ArrayList implements List {
 
     @Override
     public void add(int index, Object e) {
+        if(index<0||index>size){
+            throw new MyArrayIndexOutOfBoundsException("添加位置越界"+"Index: "+index+" ,Size: "+size);
+        }
         //如果数组满了扩容
         if(size==elementData.length){
             grow();
@@ -96,12 +99,13 @@ public class ArrayList implements List {
 
     @Override
     public void add(Object e) {
-        //如果数组满了扩容
+/*        //如果数组满了扩容
         if(size==elementData.length){
             grow();
         }
         //元素赋值 ，元素个数加一
-        elementData[size++]=e;
+        elementData[size++]=e;*/
+        this.add(size,e);
     }
 
     private void grow(){
