@@ -1,4 +1,4 @@
-package 线性表;
+package 顺序表;
 
 public interface List {
     //返回线性表的大小，即元素的个数

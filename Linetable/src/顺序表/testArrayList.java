@@ -1,6 +1,6 @@
-package 线性表;
+package 顺序表;
 
-public class test {
+public class testArrayList {
     public static void main(String[] arge){
         java.util.ArrayList a;
         ArrayList arrayList=new ArrayList();

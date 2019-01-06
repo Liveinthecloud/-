@@ -1,4 +1,4 @@
-package 线性表;
+package 顺序表;
 
 import 异常.MyArrayIndexOutOfBoundsException;
 
