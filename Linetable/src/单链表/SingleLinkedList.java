@@ -38,7 +38,7 @@ public class SingleLinkedList implements List {
 
     @Override
     public int indexof(Object e) {
-        Node temp=head;
+        Node temp=head;//创建临时结点
         if(e==null){
             for(int i=0;i<size;i++){
                 temp=temp.getNext();
