@@ -78,7 +78,7 @@ public class LinkedBinaryTree implements BinaryTree{
             //右子树遍历
             postOrderTraverse(root.getRightChild());
             //输出根节点值
-            System.out.print(root.getValue()+"  ");
+            System.out.print(root.getValue()+"   ");
         }
     }
 }
