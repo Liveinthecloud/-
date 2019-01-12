@@ -14,9 +14,6 @@ public class TestLinkedBinaryTree {
 
         //判断二叉树是否为空
         System.out.println("二叉树是否为空: "+btree.isEmpty());
-
-
-
         //先序遍历递归  1  4  5  2  3  6  7
         System.out.println("先序遍历递归: ");
         btree.preOrderTraverse();
