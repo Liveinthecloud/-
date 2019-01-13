@@ -24,6 +24,8 @@ public class TestLinkedBinaryTree {
         //中序遍历非递归（借助栈）
 
         //按层次遍历（借助队列）
+        //二叉树的高度
+        System.out.println(btree.getHeight());
 
     }
 }

@@ -49,4 +49,23 @@ public interface BinaryTree {
      * @param node 树根结点
      */
     public void postOrderTraverse(Node node);
+
+    /**
+     * 先序遍历非递归
+     */
+    public void preOrderByStack();
+    /**
+     * 中序遍历非递归
+     */
+    public void inOrderByStack();
+
+    /**
+     * 后序遍历非递归
+     */
+    public void postOrderByStack();
+
+    /**
+     * 按照层次遍历二叉树
+     */
+    public void levelOrderByStack();
 }
