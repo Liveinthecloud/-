@@ -21,11 +21,16 @@ public class TestLinkedBinaryTree {
         btree.inOrderTraverse();
         //后序遍历递归 5  4  3  7  6  2  1
         btree.postOrderTraverse();
+        //二叉树的高度
+        System.out.println(btree.getHeight());
+        //二叉树结点的个数
+        System.out.println(btree.size());
         //中序遍历非递归（借助栈）
 
         //按层次遍历（借助队列）
-        //二叉树的高度
-        System.out.println(btree.getHeight());
+        btree.levelOrderByStack();
+        // 在二叉树中查找某个值
+        System.out.println(btree.findKey(7));
 
     }
 }
