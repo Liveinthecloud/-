@@ -25,8 +25,12 @@ public class TestLinkedBinaryTree {
         System.out.println(btree.getHeight());
         //二叉树结点的个数
         System.out.println(btree.size());
+        //先序遍历非递归（借助栈）
+        btree.preOrderByStack();
         //中序遍历非递归（借助栈）
-
+        btree.inOrderByStack();
+        //后序遍历非递归（借助栈）
+        btree.postOrderByStack();
         //按层次遍历（借助队列）
         btree.levelOrderByStack();
         // 在二叉树中查找某个值
