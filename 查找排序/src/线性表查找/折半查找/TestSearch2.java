@@ -5,6 +5,7 @@ package 线性表查找.折半查找;
  */
 public class TestSearch2 {
     public static void main(String[] arge) {
+        String f;
         //给定数组（有序）
         int[] array = {11, 33, 55, 65, 78, 88, 99, 111, 333, 666};
         //查找的值
