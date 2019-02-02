@@ -4,14 +4,14 @@ import java.util.Arrays;
 
 public class QuickSort {
     public static void main(String[] arge){
-    int [] array={11,2,8,-3,9,26,45,55,89,100,-66,-78};
+    int [] array={11,11,22,65,-45,88,132,-65,22};
     System.out.println("排序前："+Arrays.toString(array));
     sort(array,0,array.length-1);
     System.out.println("排序后："+Arrays.toString(array));
     }
     public static void sort(int [] array,int low ,int high){
 
-        if(low>=high){
+        if(low==high){
             return;
         }
         ///System.out.println(Arrays.toString(array));
@@ -19,7 +19,7 @@ public class QuickSort {
         int j=high;
         int key=array[i];
         while (i<j) {
-            while(array[j]>key){ //大于标准值保持在标准值的右侧 ，j-- 向下移动
+            while(array[j]>=key&&i<j){ //大于标准值保持在标准值的右侧 ，j-- 向下移动
                 j--;
             }
             if (i<j) {
@@ -29,7 +29,7 @@ public class QuickSort {
                 array[i]^=array[j];
             }
 
-            while (array[i]<=key){
+            while (array[i]<=key&&i<j){
                 i++;
             }
             if (i<j) {
