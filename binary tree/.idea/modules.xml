@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/binary tree.iml" filepath="$PROJECT_DIR$/binary tree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/junit4.iml" filepath="$PROJECT_DIR$/src/junit4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/mapreduce.iml" filepath="$PROJECT_DIR$/src/mapreduce.iml" />
     </modules>
   </component>
 </project>
